@@ -62,9 +62,10 @@ const TaskCard = ({ task, className }) => {
         }
         .task-card {
             padding: 1rem;
-            margin-bottom: 0.5rem;
             border: 5px solid #706c6c;
             border-radius: 5px;
+            text-align: center;
+            font-size: 1.05rem;
         }
         .completed {
             background-color: #d4edda; 
@@ -81,7 +82,7 @@ const TaskCard = ({ task, className }) => {
             justify-content: space-between;
         }
         .edit-btn {
-            background-color: #80b9d7;
+            background-color:rgb(35, 56, 67);
             color: white;
             padding: 0.5rem 1rem;
             border: none;
