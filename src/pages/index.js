@@ -3,7 +3,6 @@ import { useDispatch, useSelector } from 'react-redux';
 import { fetchTasks } from '../store/tasksSlice';
 import TaskCard from '../components/TaskCard';
 import Link from 'next/link';
-import '../styles/task.css';
 
 const HomePage = () => {
   const dispatch = useDispatch();
@@ -43,6 +42,8 @@ const HomePage = () => {
           )}
         </div>
       )}
+      <style jsx>{`
+      `}</style>
     </div>
   );
 };
