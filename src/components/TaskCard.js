@@ -17,8 +17,8 @@ const TaskCard = ({ task, className }) => {
             display: flex;
             justify-content: space-between;
             align-items: center;
-        }
-        
+        }     
+               
         .task-card h3 {
             margin: 0;
             font-size: 1.2rem;
