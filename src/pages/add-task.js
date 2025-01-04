@@ -2,7 +2,7 @@ import TaskForm from '../components/TaskForm';
 import { useDispatch } from 'react-redux';
 import { addTask } from '../store/tasksSlice';
 import { useRouter } from 'next/router';
-import '../styles/globals.css';
+import '../styles/task.css';
 
 const AddTaskPage = () => {
   const dispatch = useDispatch();

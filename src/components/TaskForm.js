@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import '../styles/globals.css';
+import '../styles/task.css';
 
 const TaskForm = ({ initialData = {}, onSubmit }) => {
   const [title, setTitle] = useState(initialData.title || '');

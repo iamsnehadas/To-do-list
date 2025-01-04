@@ -3,7 +3,7 @@ import { useSelector, useDispatch } from 'react-redux';
 import { useEffect, useState } from 'react';
 import { updateTask } from '../../store/tasksSlice';
 import TaskForm from '../../components/TaskForm';
-import '../../styles/globals.css';
+import '../../styles/task.css';
 
 const EditTaskPage = () => {
   const router = useRouter();
